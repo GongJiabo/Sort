@@ -4,7 +4,7 @@
 using std::vector;
 class Sort_Solution
 {
-	//从小到大排序
+	//浠庡皬鍒板ぇ鎺掑簭
 public:
 
 	void BubbleSort(vector<int> &data);
