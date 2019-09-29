@@ -20,8 +20,20 @@ public:
 	void merge_fenzu(vector<int> &data, int l, int r);
 	void merge(vector<int> &data, int l, int m, int r);
 
+	//快速排序1
 	void QuickSort(vector<int> &data);
-	void quicksort(vector<int> &data, int l, int r);
+	void __quicksort(vector<int> &data, int l, int r);
+	//快速排序2
+	void Quicksort_2(vector<int> &data);
+	int  partition(vector<int> &data, int l, int r);
+	void __quicksort2(vector<int> &data, int l,int r);
+	//双路快速排序
+	void Quicksort_db(vector<int> &data);
+	int  partition_db(vector<int> &data, int l, int r);
+	void __quicksort_db(vector<int> &data, int l,int r);
+	//三路快速排序
+	void Quicksort_tri(vector<int> &data)
+	void __quicksort_tri(vector<int> &data,int l,int r);
 
 	void HeapSort(vector<int> &data);
 	void heapinsert(vector<int> &data);
